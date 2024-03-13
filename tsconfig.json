@@ -1,0 +1,16 @@
+{
+  "allowJs": true,
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "lib": ["es5", "es6", "dom"],
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "ES6"
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["dist", "build", "node_modules"]
+}
